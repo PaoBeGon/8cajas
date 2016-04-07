@@ -1,0 +1,25 @@
+/* Inserta tu CSS aqui */
+.caja{
+	border: 1px solid black;
+	background: #574949;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+.contenedor{
+	border: 1px solid black;
+	background: #574949;
+	width: 26%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.contenedor .caja{
+	border: 1px solid black;
+	background: #574949;
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+#uno{
+	display: inline-block;
+	margin-right:5px;
